@@ -1,0 +1,75 @@
+.meu-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid rgba(0, 100, 80, 0.25);
+    font-size: 3rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.brand h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    background: linear-gradient(rgba(0,0,176,1),rgba(0,0,80,1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #fff;
+    /* letter-spacing: -0.5px; */
+}
+
+.brand-tag {
+    background: rgba(88, 160, 255, 0.696);
+    padding: 0.25rem 0.85rem;
+    border-radius: 40px;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1bce66;
+    border-left: 2px solid #2ecc71;
+}
+
+.barra-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.barra-nav a {
+    padding: 10px 10px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 3rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.barra-nav a:hover {
+    background-color: var(--blue);
+    color: #ce1b1b;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho {
+    background-color: var(--dark-blue);
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+}
+
+li {
+  list-style-type: none;
+}

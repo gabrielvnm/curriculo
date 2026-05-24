@@ -1,0 +1,23 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 3rem;
+}
+.hero {
+  background: linear-gradient(rgba(0,0,176,1),rgba(0,0,80,1));
+  border-radius: 20px;
+  border-color: #fff;
+  border-style: solid;
+  padding: 80px 40px;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.hero-title {
+  font-size: 6rem;
+  margin-bottom: 20px;
+  font-weight: bold; 
+}

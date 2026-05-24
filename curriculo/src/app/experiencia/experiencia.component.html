@@ -1,0 +1,76 @@
+<div class="container">
+    <section class="hero">
+        <h2 class="hero-title">
+            Experiência Profissional
+        </h2>
+        <ul class="lista">
+            <li>
+                <div class="experiencia-card">                
+                    <button class="experiencia-titulo" (click)="exibirCard1 = !exibirCard1">
+                        Mock Company
+                    </button>
+                
+                    <ul *ngIf="exibirCard1">
+                        <li>
+                            <button class="cargo-titulo" (click)="exibirCard2 = !exibirCard2">
+                                Analista de Documentação
+                            </button>
+                            <div class="cargo-info" *ngIf="exibirCard2">
+                                <b>Maio 2025 - Fevereiro 2026</b><br>
+                                Manutenção e atualização do website de documentação. 
+                                Manutenção e atualização do website de treinamentos. 
+                                Edição, revisão e tradução de documentação técnica de software. 
+                                Suporte a usuários na plataforma de treinamentos. 
+                                Desenvolvimento de estruturas de front-end no website de documentação usando HTML, 
+                                CSS e Javascript. Adequação da documentação para 8 editais governamentais 
+                                durante o período. Documentação certificada em ITIL v4 pela PINK Elephant.
+                            </div>
+                        </li>
+                        <li>
+                            <button class="cargo-titulo" (click)="exibirCard3 = !exibirCard3">
+                                Assistente de Documentação
+                            </button>
+                            <div class="cargo-info" *ngIf="exibirCard3">
+                                <b>Julho 2022 - Abril 2025</b><br>
+                                Tradução, revisão e edição de documentos e treinamentos; 
+                                Desenho de estruturas básicas de front-end no website de documentação, usando HTML, CSS e Markdown. 
+                                Migração total do ambiente de documentação para nova plataforma, com a revisão e 
+                                melhoria de mais de 5000 documentos e manuais de software durante o período. 
+                                Documentação certificada em ITIL v3 pela PINK Elephant.
+                            </div>
+                        </li>
+                        <li>
+                            <button class="cargo-titulo" (click)="exibirCard4 = !exibirCard4">
+                                Estagiário
+                            </button>
+                            <div class="cargo-info" *ngIf="exibirCard4">
+                                <b>Março 2021 - Julho 2022</b><br>
+                                Tradução, revisão e publicação de documentos e treinamentos. 
+                                Publicação de 8 novos treinamentos para uso de software durante o período.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="experiencia-card">
+                    <button class="experiencia-titulo" (click)="exibirCard5 = !exibirCard5">
+                        Mock School
+                    </button>
+                    <ul *ngIf="exibirCard5">
+                        <li>
+                            <button class="cargo-titulo" (click)="exibirCard6 = !exibirCard6">
+                                Professor de Idiomas
+                            </button>
+                            <div class="cargo-info" *ngIf="exibirCard6">
+                                <b>Maio 2019 - Maio 2021</b><br>
+                                Ministrar aulas de inglês particulares e para pequenos grupos.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+</div>

@@ -22,13 +22,6 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "externalDependencies": [
-              "assets/fonts/Reactor7.ttf",
-              "assets/fonts/Reactor7.woff",
-              "assets/fonts/Reactor7.eot",
-              "assets/fonts/Reactor7.otf",
-              "assets/fonts/Reactor7.svg"
-            ],
             "styles": [
               "src/styles.css"
             ],

@@ -14,7 +14,7 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
     this.audio = new Audio();
-    this.audio.src = '/assets/songs/boss-battle.mp3';
+    this.audio.src = 'assets/songs/boss-battle.mp3';
   }
 
   playSong() {
